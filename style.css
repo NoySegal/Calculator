@@ -14,12 +14,6 @@ body {
   border-radius: 5px;
 }
 
-@media (max-width: 420px) {
-  .container {
-    width: 350px;
-  }
-}
-
 .row {
   display: flex;
 }
@@ -59,4 +53,14 @@ body {
 p {
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 350px;
+  }
+
+  .button {
+    width: 87.5px;
+  }
 }
